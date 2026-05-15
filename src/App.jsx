@@ -1,8 +1,8 @@
 import {useState} from 'react'
-import ProjectList from './components/ProjectList';
-import SearchBar from "./components/SearchBar";
-import ProjectForm from "./components/ProjectForm";
 
+import ProjectList from './Components/ProjectList';
+import SearchBar from './Components/SearchBar'
+import ProjectForm from './components/ProjectForm';
 function App() {
 
     const [projects,setProjects] = useState(
