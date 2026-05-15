@@ -2,7 +2,7 @@ import {useState} from 'react'
 
 import ProjectList from './Components/ProjectList';
 import SearchBar from './Components/SearchBar'
-import ProjectForm from './components/ProjectForm';
+import ProjectForm from './Components/ProjectForm';
 function App() {
 
     const [projects,setProjects] = useState(
